@@ -5,11 +5,11 @@ spring:
     name: hmdp
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/hmdp
+    url: jdbc:mysql://localhost:3306/hmdp?useSSL=false&serverTimezone=Asia/Shanghai
     username: root
     password: LxcFightForLove0517
   redis:
-    host: 192.168.100.134
+    host: 192.168.100.135
     port: 6379
     password: 563543
     lettuce:
