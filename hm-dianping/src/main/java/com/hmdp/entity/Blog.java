@@ -55,7 +55,6 @@ public class Blog implements Serializable {
      */
     @TableField(exist = false)
     private Boolean isLike;
-
     /**
      * 标题
      */
@@ -90,6 +89,4 @@ public class Blog implements Serializable {
      * 更新时间
      */
     private LocalDateTime updateTime;
-
-
 }
